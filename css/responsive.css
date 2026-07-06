@@ -1,0 +1,147 @@
+@media(max-width:768px){
+
+    .menu-btn{
+
+        display:block;
+
+    }
+
+    .nav-menu{
+
+        display:none;
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .hero-container{
+
+        flex-direction:column-reverse;
+
+        text-align:center;
+
+    }
+
+    .hero-content p{
+
+        margin:auto;
+        margin-top:25px;
+
+    }
+
+    .hero-button{
+
+        justify-content:center;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .hero-content h1{
+
+        font-size:48px;
+
+    }
+
+    .hero-content h3{
+
+        font-size:22px;
+
+    }
+
+    .image-circle{
+
+        width:300px;
+
+        height:300px;
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    .hero-content h1{
+
+        font-size:38px;
+
+    }
+
+    .hero-button{
+
+        flex-direction:column;
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .about-container{
+
+        grid-template-columns:1fr;
+
+        text-align:center;
+
+    }
+
+    .about-photo{
+
+        margin:auto;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .about-info{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .about-stat{
+
+        flex-direction:column;
+
+    }
+
+    .about-photo{
+
+        width:280px;
+
+        height:280px;
+
+    }
+
+}
+
+
+@media(max-width:768px){
+
+    .experience-item{
+
+        grid-template-columns:1fr;
+
+        gap:20px;
+
+    }
+
+    .experience-year{
+
+        justify-content:flex-start;
+
+    }
+
+    .experience-card{
+
+        padding:28px;
+
+    }
+
+}
